@@ -21,6 +21,7 @@ f,ax = w_rook.plot(gdf, ax=ax,
 ax.set_axis_off()
 gdf.head()
 w_queen = Queen.from_dataframe(gdf)
+plt.show()
 
 ax = gdf.plot(edgecolor='grey', facecolor='w')
 f, ax = w_queen.plot(gdf, ax=ax,
