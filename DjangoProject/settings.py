@@ -25,8 +25,8 @@ SECRET_KEY = '5w)ddndhfdvo_0svgibl@k)qbco3x*s=plg3_51@7nf6@3dn(*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+#This allows React and Django to talk to each other
+ALLOWED_HOSTS = ["backend"]
 
 # Application definition
 
